@@ -1,0 +1,185 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  padding: 0 20px;
+}
+
+.headerCont{
+  background-color: #c0392b;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.headerCont h1{
+  font-size: 22px;
+}
+
+.gymStatusCont{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  background-color: #f2f2f2;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.gymStatusCont p{
+  color: #707070;
+  font-size: 17px;
+}
+
+.gymToggle{
+  background: none;
+  color: #5C70F5;
+  padding: 0;
+  box-shadow: none;
+  border: 0;
+  font-size: 17px;
+  font-weight: 400;
+  outline: none;
+}
+
+.gymToggle:active{
+  border: none;
+  outline: none;
+}
+
+.gymToggle:focus{
+  outline: none;
+}
+
+.sectionTitle{
+  color: #333333;
+  font-size: 20px;
+  padding: 0;
+  margin: 30px 0px 10px 0px;
+}
+
+.classCont{
+  background-color: #f2f2f2;
+  padding: 15px 10px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+ul{
+  background-color: #f2f2f2;
+  list-style: none;
+  border-radius: 5px;
+  color: #707070;
+  font-size: 16px;
+}
+
+li{
+  padding: 15px 10px;
+  background-color: #ffffff;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.liDiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+.timeTitle{
+  color: #686868;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.addCont{
+  padding: 0px;
+}
+
+.exeInput{
+  display: block;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 5px;
+  width: 100%;
+}
+
+.setsCont{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.setInput, .repInput{
+  width: 32%;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+.addButton{
+  width: 100%;
+  border: none;
+  background-color: rgb(228, 37, 37);
+  color: #ffffff;
+  padding: 5px 0;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.removeButton{
+  background: none;
+  color: rgb(250, 96, 96);
+  padding: 0;
+  box-shadow: none;
+  border: 0;
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+}
+
+.removeButton:focus{
+  outline: none;
+}
+
+.modSetCont{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.setTag, .repTag{
+  display: block;
+  width: 48%;
+  font-size: 15px;
+}
+
+.updateCont{
+  display: flex;
+  justify-content: space-between;
+}
+
+.updateSet{
+  width: 32%;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  padding: 4px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.updateButton{
+  border: 1px solid #e28585;
+  background-color: transparent;
+  color: #e28585;
+  padding: 4px;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 5px;
+}
